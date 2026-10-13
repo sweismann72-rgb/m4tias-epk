@@ -16,7 +16,7 @@ UK garage. House. Grooves. Out of Denver. (m4tias.com hero line — use verbatim
 - Artist name: M4TIAS (exact spelling and capitalization, everywhere)
 - Pronounced: Matias, with a Spanish accent
 - Base: Denver, Colorado. Travels; will tour.
-- Genres: UK garage, speed garage, house (also bass)
+- Genres: UK garage, speed garage, house, dubstep (also bass)
 - Sound in one word: bouncy
 - Best slot: direct support or late-night, once the room has filled
 - Also takes: private events, corporate events
@@ -42,7 +42,8 @@ Strictly open-format bar sets built on requests and mainstream hits; poorly orga
 - SoundCloud edits: Navos — Believe Me (M4TIAS UKG Flip); Missy Elliott — Lose Control (M4TIAS UKG Flip); Dom Dolla — GIRL$ (M4TIAS UKG Flip) demo
 - Originals: 3–4 tracks awaiting mix and master; one unreleased
 
-## Live (2026, newest first — all from m4tias.com Shows)
+## Live (2026, newest first — from m4tias.com Shows unless noted)
+- Sat 19 Dec — UPCOMING — US vs UK, with Scott's Brand New. Venue, city and set time TBA. (Confirmed by Stone, 13 Oct 2026.)
 - Tue 6 Oct — Electronic Tuesdays, Championship Final — The Black Box, 314 E 13th Ave, Denver. Residency on the line. (Outcome not yet recorded.)
 - Tue 8 Sep — The Black Box, DJ Competition — First place; through to the championship final.
 - Fri 4 Sep — UKG Proper: Colours — The Black Box. Lineup: Pretti Ugli, Ninja Papes, CB1, M4tias. UK garage, speed garage, house.
@@ -64,7 +65,7 @@ Matias is his middle name and his grandfather's — a sculptor in Mexico. He has
 
 ## Socials
 - SoundCloud: https://soundcloud.com/sean-danahy-74417238 (per m4tias.com)
-- Instagram: https://www.instagram.com/music_by_m4tias/
+- Instagram: https://www.instagram.com/music_by_m4tias/ (official — confirmed by Stone 13 Oct 2026; do not use @m4tias.wav in agency materials)
 - TikTok: https://www.tiktok.com/@musicby_m4tias
 - YouTube: https://www.youtube.com/@music_by_m4tias
 
