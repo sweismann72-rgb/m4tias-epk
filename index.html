@@ -4,314 +4,330 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>M4TIAS — Press Kit</title>
-<meta name="description" content="M4TIAS is a UK garage DJ and producer out of Denver. Electronic press kit: sound, mixes, live dates, tech rider and booking.">
-<meta property="og:title" content="M4TIAS — UK garage, a mile up.">
-<meta property="og:description" content="UK garage DJ and producer out of Denver. Press kit and booking.">
+<meta name="description" content="M4TIAS electronic press kit. UK garage, speed garage and house DJ and producer out of Denver. Mixes, shows, photos, rider, booking.">
+<meta name="theme-color" content="#0a0a0b">
+<meta property="og:title" content="M4TIAS — Press Kit">
+<meta property="og:description" content="UK garage. House. Grooves. Out of Denver. Press kit and booking.">
+<meta property="og:image" content="https://m4tias.com/m2c4eefd4.jpg">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231B1530'/%3E%3Ctext x='16' y='23' font-family='Arial Black,Arial' font-weight='900' font-size='20' fill='%23FF5A36' text-anchor='middle'%3E4%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&display=swap" rel="stylesheet">
+<link rel="icon" href="https://m4tias.com/me8d55269.png">
 <style>
 :root{
-  --ink:#1B1530;
-  --ink-2:#2A2342;
-  --plaster:#E9E5DD;
-  --plaster-2:#DFDACF;
-  --marble:#9B958A;
-  --stone-text:#655F55;
-  --heat:#FF5A36;
-  --heat-dim:#B53E25;
-  --on-ink:#F3EFE6;
-  --on-plaster:#1B1530;
-  --measure:62ch;
-  --gutter:clamp(16px,5vw,72px);
+  --base:#0a0a0b;
+  --raised:#12131a;
+  --navy:#1A2C56;
+  --deep:#101B36;
+  --lift:#2A4380;
+  --steel:#D9DADB;
+  --white:#fff;
+  --t1:rgba(255,255,255,.92);
+  --t2:rgba(217,218,219,.6);
+  --t3:rgba(217,218,219,.38);
+  --line:rgba(217,218,219,.08);
+  --line2:rgba(217,218,219,.2);
+  --ease:cubic-bezier(.22,1,.36,1);
+  --gut:clamp(18px,5vw,72px);
+  --max:1180px;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;background:var(--plaster);color:var(--on-plaster);
-  font-family:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
-  font-optical-sizing:auto;font-size:clamp(17px,1.05vw + 12px,19px);line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-}
+html{scroll-behavior:smooth;background:var(--base)}
+body{margin:0;background:var(--base);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-a:focus-visible,button:focus-visible{outline:3px solid var(--heat);outline-offset:3px}
-h1,h2,h3,p{margin:0}
-h2{font-size:clamp(34px,4.6vw,64px);font-weight:800;line-height:.98;letter-spacing:-.025em;font-variation-settings:"opsz" 96}
-h3{font-size:clamp(20px,2vw,24px);font-weight:700;line-height:1.2;letter-spacing:-.01em}
-p{max-width:var(--measure)}
-.lede{font-size:clamp(20px,1.6vw,25px);line-height:1.4;font-weight:500;letter-spacing:-.01em}
-.quiet,.cap span,.tracklist li span,.dates span,blockquote footer{color:var(--stone-text)}
-.book .quiet,.book blockquote footer{color:var(--marble)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--steel);outline-offset:4px}
+img{display:block;max-width:100%}
+h1,h2,h3,p,ul,figure{margin:0}
+.kick{font-size:11px;letter-spacing:.38em;text-transform:uppercase;color:var(--t3);font-weight:700}
+h2{font-size:clamp(31px,4.8vw,61px);line-height:1.02;letter-spacing:-.03em;font-weight:800;color:var(--t1);margin:16px 0 18px}
+h3{font-size:clamp(18px,1.6vw,22px);font-weight:800;letter-spacing:-.015em;line-height:1.2}
+.lede{font-size:clamp(18px,1.6vw,22px);line-height:1.45;color:var(--t1);max-width:60ch}
+p{max-width:64ch;color:var(--t2)}
+p.t1{color:var(--t1)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
+section{padding:clamp(64px,9vw,120px) 0;border-top:1px solid var(--line)}
+.two{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(28px,5vw,72px);align-items:start}
+.two > header{position:sticky;top:28px}
+@media (max-width:860px){.two{grid-template-columns:1fr}.two > header{position:static}}
 
-/* layout */
-.band{padding:clamp(72px,10vw,140px) var(--gutter)}
-.grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(28px,5vw,80px);max-width:1240px;margin:0 auto}
-.grid > h2{position:sticky;top:24px;align-self:start}
-@media (max-width:860px){.grid{grid-template-columns:1fr}.grid > h2{position:static}}
-.stack{display:grid;gap:clamp(20px,2.4vw,32px)}
-.rule{height:1px;background:var(--plaster-2);max-width:1240px;margin:0 auto}
+/* buttons, as on m4tias.com: tracked caps, clipped corner */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:0 26px;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;text-decoration:none;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%);transition:background .3s var(--ease),color .3s var(--ease)}
+.btn.solid{background:var(--steel);color:var(--base)}
+.btn.solid:hover{background:var(--white)}
+.btn.ghost{color:var(--t1);box-shadow:inset 0 0 0 1px var(--line2)}
+.btn.ghost:hover{background:var(--raised)}
+
+/* top bar */
+.bar{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px var(--gut);background:rgba(10,10,11,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar img{height:18px;width:auto}
+.bar .links{display:flex;gap:28px;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--t2)}
+.bar .links a{text-decoration:none}
+.bar .links a:hover{color:var(--t1)}
+@media (max-width:720px){.bar .links{display:none}}
 
 /* hero */
-.hero{
-  background:var(--ink);color:var(--on-ink);
-  min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;
-  padding:clamp(20px,3vw,36px) var(--gutter) clamp(28px,4vw,48px);
-}
-.hero-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-weight:600}
-.hero-top .alt{color:var(--marble);font-weight:500}
-.hero-mid{display:grid;align-content:end;gap:clamp(18px,2.4vw,30px);padding-top:clamp(40px,8vw,96px)}
-.wordmark{
-  font-weight:800;line-height:.8;letter-spacing:-.045em;
-  font-size:clamp(84px,19.6vw,300px);font-variation-settings:"opsz" 96;
-  margin-left:-.04em;
-}
-.wordmark .four{color:var(--heat);display:inline-block;transform:translateY(.02em)}
-.hero-line{font-size:clamp(26px,3.4vw,50px);font-weight:600;letter-spacing:-.02em;line-height:1.05;max-width:18ch}
-.hero-sub{color:#CFC9BE;max-width:48ch;font-size:clamp(17px,1.3vw,21px);line-height:1.45}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;background:var(--base);border-top:0}
+.hero .media{position:absolute;inset:0;z-index:0}
+.hero .media img,.hero .media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:saturate(1.15) contrast(1.04)}
+.hero .media video{opacity:0;transition:opacity 1.2s var(--ease)}
+.hero .media video.on{opacity:1}
+.hero .wash{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(10,10,11,.55) 0%,rgba(10,10,11,.15) 30%,rgba(10,10,11,.2) 55%,var(--base) 100%),linear-gradient(90deg,rgba(10,10,11,.7) 0%,rgba(10,10,11,0) 60%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:clamp(36px,6vw,72px);padding-top:120px}
+.wordmark{width:min(720px,88vw);height:auto;filter:drop-shadow(0 10px 40px rgba(0,0,0,.6))}
+.tag{margin-top:30px;font-size:clamp(17px,1.7vw,24px);font-weight:400;color:var(--t2);letter-spacing:-.01em}
+.tag b{color:var(--t1);font-weight:800}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.strip{position:relative;z-index:2;border-top:1px solid var(--line);background:var(--base)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px 28px;padding-top:22px;padding-bottom:22px}
+.strip b{display:block;font-size:13px;color:var(--t1);letter-spacing:.02em}
+.strip span{font-size:12px;color:var(--t3)}
+@media (max-width:760px){.strip .wrap{grid-template-columns:1fr 1fr}}
 
-/* the 2-step pattern: one bar of UK garage, 16 steps */
-.pattern{display:grid;gap:6px;max-width:1240px;width:100%;margin-top:clamp(22px,3vw,40px)}
-.pattern .row{display:grid;grid-template-columns:5.5em repeat(16,1fr);gap:4px;align-items:center}
-.pattern .lab{font-size:13px;color:var(--marble);font-weight:600;padding-right:8px;white-space:nowrap}
-.pattern i{display:block;height:clamp(8px,1.2vw,14px);border-radius:2px;background:var(--ink-2)}
-.pattern i.hit{background:var(--heat)}
-.pattern i.ghost{background:var(--heat-dim)}
-.pattern i.k{opacity:.9}
-@media (max-width:600px){.pattern .row{grid-template-columns:3.4em repeat(16,1fr)}.pattern .lab{font-size:11px}}
-/* one orchestrated moment: the bar plays through once on load */
-@media (prefers-reduced-motion:no-preference){
-  .pattern.play i.hit,.pattern.play i.ghost{animation:hit .42s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(var(--s) * 125ms + 500ms)}
-  .pattern.play .head{animation:sweep 2s linear 500ms 1 both}
-  @keyframes hit{0%{transform:scaleY(.25);background:var(--ink-2)}60%{transform:scaleY(1.9)}100%{transform:scaleY(1)}}
-}
-.hero-facts{
-  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px 24px;
-  margin-top:clamp(28px,4vw,48px);padding-top:20px;border-top:1px solid var(--ink-2);
-  font-size:15px;line-height:1.35;
-}
-.hero-facts b{display:block;font-weight:700;color:var(--on-ink)}
-.hero-facts span{color:var(--marble)}
-@media (max-width:760px){.hero-facts{grid-template-columns:1fr 1fr}}
+/* sound */
+.rooms{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:8px}
+.rooms span{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--t1);padding:10px 14px;background:var(--raised);box-shadow:inset 0 0 0 1px var(--line)}
+blockquote{margin:0;padding:22px 24px;background:var(--deep);box-shadow:inset 0 0 0 1px rgba(42,67,128,.5);color:var(--t1);font-size:clamp(17px,1.4vw,20px);line-height:1.45;max-width:66ch}
+blockquote footer{margin-top:12px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t3);font-weight:700}
+.stack{display:grid;gap:clamp(20px,2.4vw,30px)}
 
-/* sections */
-.rooms{display:flex;flex-wrap:wrap;gap:10px 26px;font-weight:700;font-size:clamp(22px,2.6vw,34px);letter-spacing:-.02em;line-height:1.15}
-.rooms span{position:relative}
-.rooms span + span::before{content:"";position:absolute;left:-16px;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--heat)}
-blockquote{margin:0;padding-left:20px;border-left:3px solid var(--heat);font-size:clamp(19px,1.5vw,23px);line-height:1.4;font-weight:500;max-width:var(--measure)}
-blockquote footer{font-size:15px;font-weight:600;margin-top:10px}
+/* listen */
+.plats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.plat{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:18px 20px;background:var(--raised);box-shadow:inset 0 0 0 1px var(--line);text-decoration:none;transition:box-shadow .3s var(--ease)}
+.plat:hover{box-shadow:inset 0 0 0 1px var(--line2)}
+.plat b{display:block;font-size:17px;font-weight:800;letter-spacing:-.01em}
+.plat small{display:block;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t3);font-weight:700;margin-top:4px}
+.plat i{font-style:normal;color:var(--t2)}
+@media (max-width:560px){.plats{grid-template-columns:1fr}}
+.video{position:relative;display:block;aspect-ratio:16/9;background:var(--raised) center/cover no-repeat;overflow:hidden;text-decoration:none;color:var(--t1);box-shadow:inset 0 0 0 1px var(--line)}
+.video::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,11,0) 45%,rgba(10,10,11,.9))}
+.video .play{position:absolute;left:20px;bottom:18px;display:inline-flex;align-items:center;gap:12px;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+.video .play::before{content:"";width:0;height:0;border-style:solid;border-width:8px 0 8px 14px;border-color:transparent transparent transparent var(--steel)}
+.video:hover .play{color:var(--white)}
+.vids{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:700px){.vids{grid-template-columns:1fr}}
+.tracks{list-style:none;padding:0;margin:0}
+.tracks li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-top:1px solid var(--line);color:var(--t1)}
+.tracks li:last-child{border-bottom:1px solid var(--line)}
+.tracks li span{color:var(--t3);font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:700;white-space:nowrap;padding-top:4px}
 
-.media{display:grid;gap:22px}
-.video{position:relative;display:block;aspect-ratio:16/9;background:var(--ink) center/cover no-repeat;border-radius:4px;overflow:hidden;text-decoration:none;color:var(--on-ink)}
-.video::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(27,21,48,0) 40%,rgba(27,21,48,.85))}
-.video .play{position:absolute;left:20px;bottom:18px;display:inline-flex;align-items:center;gap:12px;font-weight:700;font-size:16px}
-.video .play::before{content:"";width:0;height:0;border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent var(--heat)}
-.video:hover .play{color:var(--heat)}
-.cap{display:flex;justify-content:space-between;gap:16px;margin-top:8px;font-size:15px}
-.cap b{font-weight:700}
+/* shows */
+.shows{list-style:none;padding:0;margin:0}
+.shows li{display:grid;grid-template-columns:9.5em 1fr;gap:18px;padding:20px 0;border-top:1px solid var(--line)}
+.shows li:last-child{border-bottom:1px solid var(--line)}
+.shows time{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t2);font-weight:700;padding-top:5px}
+.shows b{display:block;font-size:clamp(17px,1.5vw,21px);font-weight:800;letter-spacing:-.015em;color:var(--t1)}
+.shows span{display:block;color:var(--t2);font-size:15px;margin-top:3px}
+.shows em{display:inline-block;font-style:normal;margin-top:8px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:700;color:var(--steel);background:var(--navy);padding:6px 10px}
+@media (max-width:560px){.shows li{grid-template-columns:1fr;gap:6px}}
 
-.tracklist{list-style:none;margin:0;padding:0;border-top:1px solid var(--plaster-2)}
-.tracklist li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:14px 0;border-bottom:1px solid var(--plaster-2)}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(120px,auto);gap:10px}
+.gal figure{position:relative;overflow:hidden;background:var(--raised);box-shadow:inset 0 0 0 1px var(--line)}
+.gal img{width:100%;height:100%;object-fit:cover;filter:saturate(1.08)}
+.gal figcaption{position:absolute;left:14px;bottom:12px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t1);font-weight:700;text-shadow:0 2px 14px rgba(0,0,0,.8)}
+.g1{grid-column:span 5;grid-row:span 2;aspect-ratio:4/5}
+.g2{grid-column:span 7;grid-row:span 1;aspect-ratio:7/4}
+.g3{grid-column:span 4;aspect-ratio:1}
+.g4{grid-column:span 3;aspect-ratio:3/4}
+.g5{grid-column:span 4;aspect-ratio:1}
+.g6{grid-column:span 4;aspect-ratio:1}
+.g7{grid-column:span 4;aspect-ratio:1}
+@media (max-width:760px){.gal{grid-template-columns:repeat(6,1fr)}.g1{grid-column:span 6}.g2{grid-column:span 6}.g3,.g5,.g6,.g7{grid-column:span 3}.g4{grid-column:span 3}}
 
-
-.dates{list-style:none;margin:0;padding:0}
-.dates li{display:grid;grid-template-columns:7.5em 1fr;gap:16px;padding:18px 0;border-top:1px solid var(--plaster-2)}
-.dates li:last-child{border-bottom:1px solid var(--plaster-2)}
-.dates time{font-weight:700;line-height:1.3}
-.dates b{display:block;font-weight:700}
-.dates span{display:block}
-@media (max-width:520px){.dates li{grid-template-columns:1fr;gap:4px}}
-
-.rider{display:grid;grid-template-columns:1fr 1fr;gap:22px 40px}
-.rider div{border-top:2px solid var(--on-plaster);padding-top:12px}
-.rider ul{margin:8px 0 0;padding-left:1.1em}
-.rider li{margin:4px 0}
+/* rider */
+.rider{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.rider div{padding:20px 22px;background:var(--raised);box-shadow:inset 0 0 0 1px var(--line)}
+.rider h3{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t3);font-weight:700}
+.rider ul{margin:12px 0 0;padding-left:1.1em;color:var(--t1)}
+.rider li{margin:6px 0}
 @media (max-width:620px){.rider{grid-template-columns:1fr}}
 
-.book{background:var(--ink);color:var(--on-ink)}
-.book h2{color:var(--on-ink)}
-.book .lede{color:#CFC9BE}
-.contact{display:grid;gap:14px;font-size:clamp(20px,2vw,28px);font-weight:600;letter-spacing:-.015em}
-.contact a{text-decoration:none;border-bottom:2px solid var(--heat);padding-bottom:2px;width:max-content;max-width:100%;word-break:break-all}
-.contact a:hover{color:var(--heat)}
-.contact small{display:block;font-size:14px;font-weight:500;color:var(--marble);letter-spacing:0;margin-top:2px}
-.socials{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:28px;font-size:16px;font-weight:600}
-.socials a{text-decoration:none;color:#CFC9BE}
-.socials a:hover{color:var(--heat)}
-.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;max-width:1240px;margin:56px auto 0;padding-top:20px;border-top:1px solid var(--ink-2);font-size:14px;color:var(--marble)}
+/* booking */
+.book{background:var(--deep)}
+.book p{color:rgba(217,218,219,.7)}
+.contact{display:grid;gap:16px}
+.contact a{font-size:clamp(20px,2.4vw,30px);font-weight:800;letter-spacing:-.02em;text-decoration:none;color:var(--t1);width:max-content;max-width:100%;word-break:break-all;border-bottom:2px solid var(--lift);padding-bottom:3px}
+.contact a:hover{border-color:var(--steel)}
+.contact small{display:block;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t3);font-weight:700;margin-top:6px}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:8px}
+.facts div{padding:16px 18px;background:rgba(10,10,11,.45);box-shadow:inset 0 0 0 1px rgba(42,67,128,.5)}
+.facts b{display:block;font-size:20px;font-weight:800;letter-spacing:-.02em;color:var(--t1)}
+.facts span{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--t3);font-weight:700}
+@media (max-width:620px){.facts{grid-template-columns:1fr}}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;padding:26px var(--gut);border-top:1px solid var(--line);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--t3);font-weight:700}
+.foot a{text-decoration:none}
+@media (prefers-reduced-motion:reduce){.hero .media video{display:none}}
 </style>
 </head>
 <body>
 
-<header class="hero">
-  <div class="hero-top">
-    <div>M4TIAS <span class="alt">press kit</span></div>
-    <div class="alt">Denver, 5,280 ft</div>
+<div class="bar">
+  <a href="#top" aria-label="M4TIAS"><img src="https://m4tias.com/me8d55269.png" alt="M4TIAS"></a>
+  <nav class="links" aria-label="Sections">
+    <a href="#sound">Sound</a><a href="#listen">Listen</a><a href="#live">Live</a><a href="#photos">Photos</a><a href="#rider">Rider</a><a href="#book">Booking</a>
+  </nav>
+</div>
+
+<header class="hero" id="top">
+  <div class="media" aria-hidden="true">
+    <img src="https://m4tias.com/m2c4eefd4.jpg" alt="">
+    <video muted playsinline loop preload="metadata" poster="https://m4tias.com/m2c4eefd4.jpg">
+      <source src="https://m4tias.com/m84d9d8de.mp4" type="video/mp4">
+    </video>
   </div>
-
-  <div class="hero-mid">
-    <h1 class="wordmark" aria-label="M4TIAS">M<span class="four">4</span>TIAS</h1>
-    <p class="hero-line">UK garage, a mile up.</p>
-    <p class="hero-sub">DJ and producer out of Denver. Bouncy, fast, and built for the moment the room fills — the set that takes the floor somewhere and hands it to the headliner hotter than it was found.</p>
-
-    <div class="pattern play" role="img" aria-label="One bar of a UK garage two-step drum pattern: kick on one and the and of two, snare on two and four, shuffled hi-hats.">
-      <div class="row"><span class="lab">hats</span>
-        <i class="hit" style="--s:0"></i><i style="--s:1"></i><i class="ghost" style="--s:2"></i><i class="hit" style="--s:3"></i>
-        <i class="hit" style="--s:4"></i><i style="--s:5"></i><i class="ghost" style="--s:6"></i><i class="hit" style="--s:7"></i>
-        <i class="hit" style="--s:8"></i><i style="--s:9"></i><i class="ghost" style="--s:10"></i><i class="hit" style="--s:11"></i>
-        <i class="hit" style="--s:12"></i><i style="--s:13"></i><i class="ghost" style="--s:14"></i><i class="hit" style="--s:15"></i>
-      </div>
-      <div class="row"><span class="lab">snare</span>
-        <i style="--s:0"></i><i style="--s:1"></i><i style="--s:2"></i><i style="--s:3"></i>
-        <i class="hit" style="--s:4"></i><i style="--s:5"></i><i style="--s:6"></i><i style="--s:7"></i>
-        <i style="--s:8"></i><i style="--s:9"></i><i style="--s:10"></i><i style="--s:11"></i>
-        <i class="hit" style="--s:12"></i><i style="--s:13"></i><i style="--s:14"></i><i class="ghost" style="--s:15"></i>
-      </div>
-      <div class="row"><span class="lab">kick</span>
-        <i class="hit k" style="--s:0"></i><i style="--s:1"></i><i style="--s:2"></i><i style="--s:3"></i>
-        <i style="--s:4"></i><i style="--s:5"></i><i class="hit k" style="--s:6"></i><i style="--s:7"></i>
-        <i class="hit k" style="--s:8"></i><i style="--s:9"></i><i style="--s:10"></i><i style="--s:11"></i>
-        <i style="--s:12"></i><i style="--s:13"></i><i class="hit k" style="--s:14"></i><i style="--s:15"></i>
-      </div>
+  <div class="wash" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="kick">Electronic press kit</div>
+    <h1 style="margin-top:22px"><img class="wordmark" src="https://m4tias.com/mecc064c1.png" alt="M4TIAS"></h1>
+    <p class="tag"><b>UK garage. House. Grooves.</b> Out of Denver.</p>
+    <div class="cta">
+      <a class="btn solid" href="#listen">Listen</a>
+      <a class="btn ghost" href="#book">Book M4TIAS</a>
     </div>
   </div>
-
-  <dl class="hero-facts">
-    <div><b>Denver, Colorado</b><span>Travels. Will tour.</span></div>
-    <div><b>UK garage, speed garage, house</b><span>Four-deck, any house gear</span></div>
-    <div><b>Direct support and late slots</b><span>Private and corporate events too</span></div>
-    <div><b>Represented by OMNIS Industries</b><span>Replies within the day</span></div>
-  </dl>
 </header>
 
-<section class="band">
-  <div class="grid">
-    <h2>The sound</h2>
+<div class="strip">
+  <div class="wrap">
+    <div><b>Denver, Colorado</b><span>Based here. Will travel. Will tour.</span></div>
+    <div><b>UK garage, speed garage, house</b><span>Built to move a room from the first record</span></div>
+    <div><b>Clubs, festivals, private, corporate</b><span>60, 90, 120 minute sets</span></div>
+    <div><b>Managed by OMNIS Industries</b><span>Every inquiry answered inside one hour</span></div>
+  </div>
+</div>
+
+<section id="sound">
+  <div class="wrap two">
+    <header><div class="kick">The sound</div><h2>Bouncy, fast, and never where you left it</h2></header>
     <div class="stack">
-      <p class="lede">Ask him to describe it in one word and he says “bouncy.” That is the honest answer. UK garage at the front, speed garage and house when the floor asks for it, and a mixing style that switches up before anyone can settle.</p>
-      <p>He reads a dark room with a strong system, plays on house gear he has never touched, and builds a set that takes the crowd somewhere instead of chasing the biggest recognizable record. The job he wants is the one most openers get wrong: make the room hotter for whoever is next.</p>
+      <p class="lede">UK garage at the front. Speed garage and house when the floor asks for it. A mixing style that switches up before anyone can settle, and a reputation for being the DJ people watch, not just hear.</p>
+      <p>M4TIAS reads a dark room with a strong system, plays on house gear he has never touched, and builds a set that takes the crowd somewhere instead of chasing the biggest recognizable record. He treats the opening and direct-support slots the way they should be treated: make the room hotter for whoever is next.</p>
       <div>
-        <h3>Rooms he belongs in</h3>
-        <p class="quiet" style="margin:4px 0 14px">The artists whose crowds are his crowd.</p>
+        <div class="kick">Rooms he belongs in</div>
         <div class="rooms"><span>Sammy Virji</span><span>MPH</span><span>Fred again..</span><span>Oppidan</span><span>Salute</span></div>
       </div>
       <blockquote>
         “An intimate, high-energy night built around UK garage, bass and house. A dark room, a strong system, a packed floor, a crowd that came to discover music. Direct support or the late slot once the energy is already building, so I can play faster and still take the room somewhere.”
         <footer>M4TIAS, on the perfect booking</footer>
       </blockquote>
-      <p class="quiet">Not a fit: open-format request nights and mainstream-only bar sets. He would rather pass than play a room where the brief and the music do not match.</p>
     </div>
   </div>
 </section>
 
-<div class="rule"></div>
-
-<section class="band">
-  <div class="grid">
-    <h2>Listen</h2>
+<section id="listen">
+  <div class="wrap two">
+    <header><div class="kick">Listen</div><h2>Everywhere the music lives</h2></header>
     <div class="stack">
-      <div class="media">
+      <div class="vids">
         <div>
-          <a class="video" href="https://www.youtube.com/watch?v=1dsGsu38Q7I" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/1dsGsu38Q7I/maxresdefault.jpg')" aria-label="Play UKG Skydeck mix on YouTube"><span class="play">Play on YouTube</span></a>
-          <div class="cap"><b>UKG Skydeck mix</b><span>Full set, recorded in Denver</span></div>
+          <a class="video" href="https://www.youtube.com/watch?v=1dsGsu38Q7I" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/1dsGsu38Q7I/maxresdefault.jpg')" aria-label="Play the UKG Skydeck mix on YouTube"><span class="play">UKG Skydeck mix</span></a>
         </div>
         <div>
-          <a class="video" href="https://www.youtube.com/watch?v=n0djvkfglVY" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/n0djvkfglVY/maxresdefault.jpg')" aria-label="Play the garage into wubs clip on YouTube"><span class="play">Play on YouTube</span></a>
-          <div class="cap"><b>Garage into wubs</b><span>Short clip of the switch-up</span></div>
+          <a class="video" href="https://www.youtube.com/watch?v=n0djvkfglVY" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/n0djvkfglVY/maxresdefault.jpg')" aria-label="Play the garage into wubs clip on YouTube"><span class="play">Garage into wubs</span></a>
         </div>
       </div>
+      <div class="plats">
+        <a class="plat" href="https://soundcloud.com/sean-danahy-74417238" rel="noopener"><div><b>SoundCloud</b><small>Mixes and sets</small></div><i>↗</i></a>
+        <a class="plat" href="https://www.youtube.com/@music_by_m4tias" rel="noopener"><div><b>YouTube</b><small>@music_by_m4tias</small></div><i>↗</i></a>
+        <a class="plat" href="https://www.instagram.com/music_by_m4tias/" rel="noopener"><div><b>Instagram</b><small>@music_by_m4tias</small></div><i>↗</i></a>
+        <a class="plat" href="https://www.tiktok.com/@musicby_m4tias" rel="noopener"><div><b>TikTok</b><small>@musicby_m4tias</small></div><i>↗</i></a>
+      </div>
       <div>
-        <h3>UKG flips</h3>
-        <p class="quiet" style="margin:4px 0 14px">Original edits, released on SoundCloud. Originals are in production.</p>
-        <ul class="tracklist">
-          <li>Navos — Believe Me (M4TIAS UKG Flip)<span>edit</span></li>
-          <li>Missy Elliott — Lose Control (M4TIAS UKG Flip)<span>edit</span></li>
-          <li>Dom Dolla — GIRL$ (M4TIAS UKG Flip)<span>demo</span></li>
+        <div class="kick" style="margin-bottom:10px">UKG flips</div>
+        <ul class="tracks">
+          <li>Navos — Believe Me (M4TIAS UKG Flip)<span>SoundCloud</span></li>
+          <li>Missy Elliott — Lose Control (M4TIAS UKG Flip)<span>SoundCloud</span></li>
+          <li>Dom Dolla — GIRL$ (M4TIAS UKG Flip)<span>Demo</span></li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<div class="rule"></div>
+<section id="live">
+  <div class="wrap two">
+    <header><div class="kick">Live</div><h2>Recent shows</h2><p>Denver and Southern California, 2026.</p></header>
+    <ul class="shows">
+      <li><time datetime="2026-10-06">Tue, Oct 6</time><div><b>Electronic Tuesdays, Championship Final</b><span>The Black Box, 314 E 13th Ave, Denver</span><em>Residency on the line</em></div></li>
+      <li><time datetime="2026-09-08">Tue, Sep 8</time><div><b>The Black Box, DJ Competition</b><span>314 E 13th Ave, Denver</span><em>First place, through to the championship final</em></div></li>
+      <li><time datetime="2026-09-04">Fri, Sep 4</time><div><b>UKG Proper: Colours, The Black Box</b><span>With Pretti Ugli, Ninja Papes and CB1. UK garage, speed garage, house.</span></div></li>
+      <li><time datetime="2026-08-22">Sat, Aug 22</time><div><b>Pool Party, UKG Throwdown</b><span>Private event, Denver</span></div></li>
+      <li><time datetime="2026-08-15">Sat, Aug 15</time><div><b>Summer Music Series, Denver Pavilions</b><span>500 16th St, Denver. 90 minute set, free, all ages.</span></div></li>
+      <li><time datetime="2026-05-23">Sat, May 23</time><div><b>San Diego Takeover</b><span>Secret location, San Diego. Headline, 10PM to late, with Orly Gal, KOA and MVRCI.</span></div></li>
+      <li><time datetime="2026-05-21">Thu, May 21</time><div><b>Shelter, Encinitas</b><span>540 S Coast Hwy 101. 9PM to close, 21 and over. House, UKG, grooves.</span></div></li>
+    </ul>
+  </div>
+</section>
 
-<section class="band">
-  <div class="grid">
-    <h2>Live</h2>
+<section id="photos">
+  <div class="wrap">
+    <div class="kick">In the room</div>
+    <h2>This is what it feels like</h2>
+    <div class="gal" style="margin-top:28px">
+      <figure class="g1"><img src="https://m4tias.com/m4fe51777.jpg" alt="M4TIAS at The Black Box DJ competition, Denver" loading="lazy"><figcaption>The Black Box, DJ competition</figcaption></figure>
+      <figure class="g2"><img src="https://m4tias.com/m2c4eefd4.jpg" alt="Crowd at The Black Box, Denver" loading="lazy"><figcaption>The Black Box, Denver</figcaption></figure>
+      <figure class="g3"><img src="https://m4tias.com/m0fc67b27.jpg" alt="M4TIAS live in San Diego" loading="lazy"><figcaption>Live, San Diego</figcaption></figure>
+      <figure class="g4"><img src="https://m4tias.com/mcd0099d0.jpg" alt="M4TIAS at the Summer Music Series, Denver Pavilions" loading="lazy"><figcaption>Denver Pavilions</figcaption></figure>
+      <figure class="g5"><img src="https://m4tias.com/m73006947.jpg" alt="M4TIAS in the studio at sunset" loading="lazy"><figcaption>Studio, golden hour</figcaption></figure>
+      <figure class="g6"><img src="https://m4tias.com/mf4d12925.jpg" alt="M4TIAS on the decks" loading="lazy"><figcaption>On the decks</figcaption></figure>
+      <figure class="g7"><img src="https://m4tias.com/mff832aa4.jpg" alt="M4TIAS off duty" loading="lazy"><figcaption>Off duty</figcaption></figure>
+    </div>
+    <p style="margin-top:18px;font-size:13px;color:var(--t3)">Every set is filmed. Promoters and agencies get usable clips from each date for their own channels. Full-resolution photos and posters on request.</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap two">
+    <header><div class="kick">About</div><h2>M4TIAS</h2></header>
     <div class="stack">
-      <ul class="dates">
-        <li>
-          <time datetime="2026-09-04">4 Sep 2026</time>
-          <div><b>UKG Proper: Colours — The Black Box, Denver</b><span>With Pretti Ugli, Ninja Papes and CB1. Denver’s UK garage night at the city’s underground bass venue.</span></div>
-        </li>
-        <li>
-          <time>Ongoing</time>
-          <div><b>UKG Proper and Denver EDM Friends</b><span>Recurring community nights he plays with in Denver.</span></div>
-        </li>
-      </ul>
-      <blockquote>
-        “You’re so fun to watch. You’ve got such a great energy.”
-        <footer>Denver promoter, after a set</footer>
-      </blockquote>
-      <p>Every set is filmed for clips. Agencies and promoters get usable footage from each date for their own channels.</p>
+      <p class="lede">M4TIAS is Sean Danahy, a DJ and producer out of Denver. UK garage, speed garage, and house, built to move a room from the first record.</p>
+      <p>One week this May: Shelter in Encinitas on the Thursday, nine until close, then headlining the San Diego Takeover on the Saturday with Orly Gal, KOA, and MVRCI. Back home, a first-place finish at The Black Box’s DJ competition put him through to the Electronic Tuesdays championship final with a residency on the line.</p>
+      <p>Matias is his middle name and his grandfather’s, a sculptor in Mexico. He has carried it since he started producing at twelve. The 4 is the only thing he changed.</p>
     </div>
   </div>
 </section>
 
-<div class="rule"></div>
-
-<section class="band">
-  <div class="grid">
-    <h2>The name</h2>
-    <div class="stack">
-      <p class="lede">Matias is his middle name, and his grandfather’s. A sculptor in Mexico. He has carried the name since he started producing at twelve, and he carries the heritage in it on purpose.</p>
-      <p>The 4 is the only thing he changed. The rest of the brand is built on the same idea: not a DJ playing tracks, a performance. Something worth watching, not just hearing.</p>
+<section id="rider">
+  <div class="wrap two">
+    <header><div class="kick">Tech rider</div><h2>What he needs, what he brings</h2></header>
+    <div class="rider">
+      <div><h3>Club setup request</h3><ul><li>Pioneer CDJ-2000 or newer, minimum three, four preferred</li><li>Four-channel DJM mixer</li><li>Booth monitor</li></ul></div>
+      <div><h3>He brings</h3><ul><li>Multiple USB drives, redundant copies</li><li>Headphones</li><li>Fluent on all major platforms; adapts to house gear on sight</li></ul></div>
+      <div><h3>Mobile and private events</h3><ul><li>Own controller rig: Pioneer DDJ-SX2, laptop, speaker</li><li>CDJ-350 and DJM-400 available</li><li>PA and mics arranged on request</li></ul></div>
+      <div><h3>Logistics</h3><ul><li>Over 21</li><li>Own transport; no travel fee within 50 miles of Denver</li><li>Two to four weeks notice preferred; same-day fills considered</li></ul></div>
     </div>
   </div>
 </section>
 
-<div class="rule"></div>
-
-<section class="band">
-  <div class="grid">
-    <h2>Tech rider</h2>
+<section id="book" class="book">
+  <div class="wrap two">
+    <header><div class="kick">Booking</div><h2>Book M4TIAS</h2></header>
     <div class="stack">
-      <div class="rider">
-        <div><h3>Club setup request</h3>
-          <ul><li>Pioneer CDJ-2000 or newer, minimum three, four preferred</li><li>Four-channel DJM mixer</li><li>Booth monitor</li></ul></div>
-        <div><h3>He brings</h3>
-          <ul><li>Multiple USB drives, redundant copies</li><li>Headphones</li><li>Fluent on all major platforms; adapts to house gear on sight</li></ul></div>
-        <div><h3>Mobile and private events</h3>
-          <ul><li>Own controller rig: Pioneer DDJ-SX2, laptop, speaker</li><li>CDJ-350 and DJM-400 available</li><li>PA and mics arranged on request</li></ul></div>
-        <div><h3>Logistics</h3>
-          <ul><li>Over 21</li><li>Own transport; no travel fee within 50 miles of Denver</li><li>Two to four weeks notice preferred; same-day fills considered</li></ul></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="band book">
-  <div class="grid">
-    <h2>Book him</h2>
-    <div class="stack">
-      <p class="lede">Management handles every booking conversation. Fees, availability, and the full rider on request.</p>
+      <p class="lede">Clubs, festivals, private and corporate events. Based in Denver, will travel. Contracts, invoicing, and promo handled by management. Fees and the full rider on request.</p>
       <div class="contact">
-        <div><a href="mailto:stone@omnisindustries.com?subject=Booking%20M4TIAS">stone@omnisindustries.com</a><small>OMNIS Industries, management</small></div>
-        <div><a href="mailto:musicbym4tias@gmail.com?subject=Booking%20M4TIAS">musicbym4tias@gmail.com</a><small>Artist, for promos and collaborations</small></div>
+        <div><a href="mailto:musicbym4tias@gmail.com?subject=Booking%20M4TIAS">musicbym4tias@gmail.com</a><small>Booking</small></div>
+        <div><a href="mailto:stone@omnisindustries.com?subject=M4TIAS">stone@omnisindustries.com</a><small>Management, OMNIS Industries</small></div>
       </div>
-      <div class="socials">
-        <a href="https://www.instagram.com/music_by_m4tias/" rel="noopener">Instagram @music_by_m4tias</a>
-        <a href="https://www.tiktok.com/@musicby_m4tias" rel="noopener">TikTok @musicby_m4tias</a>
-        <a href="https://www.youtube.com/@music_by_m4tias" rel="noopener">YouTube @music_by_m4tias</a>
+      <div class="facts">
+        <div><b>60 min</b><span>Reply time</span></div>
+        <div><b>60 · 90 · 120</b><span>Set lengths</span></div>
+        <div><b>On request</b><span>Fees and rider</span></div>
       </div>
+      <div class="cta"><a class="btn solid" href="https://m4tias.com" rel="noopener">m4tias.com</a><a class="btn ghost" href="https://omnisindustries.com" rel="noopener">omnisindustries.com</a></div>
     </div>
-  </div>
-  <div class="foot">
-    <div>M4TIAS, Denver. Represented by OMNIS Industries.</div>
-    <div>Nothing is agreed, signed, or posted without the artist’s written approval.</div>
   </div>
 </section>
 
+<footer class="foot">
+  <div>© 2026 M4TIAS. All rights reserved.</div>
+  <div><a href="https://omnisindustries.com" rel="noopener">Managed by OMNIS Industries</a></div>
+</footer>
+
+<script>
+(function(){
+  var v=document.querySelector('.hero video');if(!v)return;
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  v.addEventListener('canplay',function(){v.classList.add('on');var p=v.play();if(p&&p.catch)p.catch(function(){});},{once:true});
+  v.load();
+})();
+</script>
 </body>
 </html>

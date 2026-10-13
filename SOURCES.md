@@ -1,5 +1,6 @@
 # Sources
 
+Primary brand source: **https://m4tias.com** (live site, read 13 Oct 2026). Colors, type, wordmark, show history, booking terms and the About copy come from there. 
 Every public claim on the page, and where it came from. "Intake" = OMNIS_M4TAIS_Artist_Intake (Google Doc, completed by Sean, July 2026).
 
 | Claim | Source |
@@ -22,10 +23,16 @@ Every public claim on the page, and where it came from. "Intake" = OMNIS_M4TAIS_
 | YouTube channel M4TIAS, "UKG SKYDECK M4TIAS MIX" (13 Jul 2026), "Ever heard someone mix garage with wubs?" (23 Jun 2026) | https://www.youtube.com/@music_by_m4tias and its RSS feed (channel UCUHapPBVvSdRMPD0bDJRtow) |
 | "Represented by OMNIS Industries"; management email | OMNIS management agreement (Intake preamble); OMNIS agency comms protocol |
 
+## From m4tias.com (13 Oct 2026)
+- Show list May–Oct 2026, including Sep 8 first place and Oct 6 final
+- Brand tokens (CSS :root), wordmark PNGs, gallery photos, hero video
+- SoundCloud profile URL soundcloud.com/sean-danahy-74417238
+- "Every inquiry answered inside one hour", set lengths, management scope
+
 ## Verified NOT him
 - soundcloud.com/m4tias — "jmatias", Buenos Aires. Not the artist.
 - soundcloud.com/m4ti4s-223-beta — French rap producer "M4TIAS". Not the artist. (Sean flagged "another M4tias on SoundCloud" in Intake §7 Q80.)
-- The correct SoundCloud profile URL is still unconfirmed; the page lists the flips by title without a link until it is.
+- The site links soundcloud.com/sean-danahy-74417238; the kit uses that.
 
 ## Not verified, so not on the page
 - Any follower, play or stream counts (YouTube showed 3 subscribers / 2 videos on 13 Oct 2026; not a selling point, omitted).

@@ -1,5 +1,7 @@
 # Changelog
 
 ## 2026-10-13
-- First build. Page, text twin, sources. Built from the July 2026 intake and the public footprint as of today.
-- Open items for Stone: confirm the real SoundCloud profile URL; get 3–5 professional photos and one performance clip in landscape (the page is designed to take a photo band under the hero once they exist); decide whether "The Church" should appear once he plays it.
+- Rebuilt in the m4tias.com brand system (near-black base, navy and steel accents, the site's wordmark, tracked caps, system sans) after a first draft in a different palette was rejected.
+- Content now mirrors the live site and the July 2026 intake: seven-show history (May–Oct 2026), first place at The Black Box DJ competition, gallery, rider, booking.
+- Brand assets are hotlinked from m4tias.com. Run `bash assets/mirror.sh` once from a normal connection to vendor them into the repo.
+- Open items for Stone: result of the Oct 6 Electronic Tuesdays final (page says "residency on the line", not the outcome); mailing-list signup on the site still unconnected; merch photos.
