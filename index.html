@@ -103,8 +103,11 @@ blockquote{margin:0;padding-left:20px;border-left:3px solid var(--heat);font-siz
 blockquote footer{font-size:15px;font-weight:600;margin-top:10px}
 
 .media{display:grid;gap:22px}
-.video{position:relative;aspect-ratio:16/9;background:var(--ink);border-radius:4px;overflow:hidden}
-.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video{position:relative;display:block;aspect-ratio:16/9;background:var(--ink) center/cover no-repeat;border-radius:4px;overflow:hidden;text-decoration:none;color:var(--on-ink)}
+.video::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(27,21,48,0) 40%,rgba(27,21,48,.85))}
+.video .play{position:absolute;left:20px;bottom:18px;display:inline-flex;align-items:center;gap:12px;font-weight:700;font-size:16px}
+.video .play::before{content:"";width:0;height:0;border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent var(--heat)}
+.video:hover .play{color:var(--heat)}
 .cap{display:flex;justify-content:space-between;gap:16px;margin-top:8px;font-size:15px}
 .cap b{font-weight:700}
 
@@ -210,11 +213,11 @@ blockquote footer{font-size:15px;font-weight:600;margin-top:10px}
     <div class="stack">
       <div class="media">
         <div>
-          <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/1dsGsu38Q7I" title="UKG SKYDECK M4TIAS MIX" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+          <a class="video" href="https://www.youtube.com/watch?v=1dsGsu38Q7I" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/1dsGsu38Q7I/maxresdefault.jpg')" aria-label="Play UKG Skydeck mix on YouTube"><span class="play">Play on YouTube</span></a>
           <div class="cap"><b>UKG Skydeck mix</b><span>Full set, recorded in Denver</span></div>
         </div>
         <div>
-          <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/n0djvkfglVY" title="Ever heard someone mix garage with wubs? M4TIAS" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+          <a class="video" href="https://www.youtube.com/watch?v=n0djvkfglVY" rel="noopener" style="background-image:url('https://i.ytimg.com/vi/n0djvkfglVY/maxresdefault.jpg')" aria-label="Play the garage into wubs clip on YouTube"><span class="play">Play on YouTube</span></a>
           <div class="cap"><b>Garage into wubs</b><span>Short clip of the switch-up</span></div>
         </div>
       </div>
