@@ -16,7 +16,10 @@ UK garage. House. Grooves. Out of Denver. (m4tias.com hero line — use verbatim
 - Artist name: M4TIAS (exact spelling and capitalization, everywhere)
 - Pronounced: Matias, with a Spanish accent
 - Base: Denver, Colorado. Travels; will tour.
-- Genres: UK garage, speed garage, house, dubstep (also bass)
+- Core: house and UK garage (Sean, 20 Oct 2026)
+- Club side (late nights): underground UKG, speed garage, bass, dubstep
+- Day side (rooftops, day parties, brunch, happy hours): groovy house, disco-leaning, dance
+- Positioning: versatile DJ who reads the room and builds the set around the setting and the crowd
 - Sound in one word: bouncy
 - Best slot: direct support or late-night, once the room has filled
 - Also takes: private events, corporate events
@@ -26,6 +29,9 @@ UK garage. House. Grooves. Out of Denver. (m4tias.com hero line — use verbatim
 - Booking email (public, as on the site): musicbym4tias@gmail.com
 - Management: OMNIS Industries — stone@omnisindustries.com — contracts, invoicing, advances, press, partnerships
 - Reply time: inside one hour. Set lengths: 60 / 90 / 120 min. Rider on request.
+
+## Pitch rule (internal — not on the public page)
+Lead with the side that fits the venue. Rooftops, day parties, lounges, happy hours, immersive/art bars: lead with house and dance. Late club nights and bass rooms: lead with UKG and bass. Always keep house + UKG as the identity line.
 
 ## Rooms he belongs in
 Sammy Virji, MPH, Fred again.., Oppidan, Salute
@@ -44,8 +50,8 @@ Strictly open-format bar sets built on requests and mainstream hits; poorly orga
 
 ## Live (2026, newest first — from m4tias.com Shows unless noted)
 - Sat 19 Dec — UPCOMING — US vs UK, with Scott's Brand New. Venue, city and set time TBA. (Confirmed by Stone, 13 Oct 2026.)
-- Tue 6 Oct — Electronic Tuesdays, Championship Final — The Black Box, 314 E 13th Ave, Denver. Residency on the line. (Outcome not yet recorded.)
-- Tue 8 Sep — The Black Box, DJ Competition — First place; through to the championship final.
+- Tue 6 Oct — Electronic Tuesdays, Championship Final — The Black Box, 314 E 13th Ave, Denver. Played the final; did not win the residency. Do not mention the residency in pitches.
+- Tue 8 Sep — Electronic Tuesdays DJ Competition, The Black Box — won round one (the first round of the first competition). NOT first place overall; never call it a win of the competition. (Corrected by Stone, 15 Oct 2026.)
 - Fri 4 Sep — UKG Proper: Colours — The Black Box. Lineup: Pretti Ugli, Ninja Papes, CB1, M4tias. UK garage, speed garage, house.
 - Sat 22 Aug — Pool Party, UKG Throwdown — private event, Denver.
 - Sat 15 Aug — Summer Music Series, Denver Pavilions, 500 16th St. 90 minute set, free, all ages.

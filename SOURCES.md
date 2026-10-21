@@ -24,7 +24,7 @@ Every public claim on the page, and where it came from. "Intake" = OMNIS_M4TAIS_
 | "Represented by OMNIS Industries"; management email | OMNIS management agreement (Intake preamble); OMNIS agency comms protocol |
 
 ## From m4tias.com (13 Oct 2026)
-- Show list May–Oct 2026, including Sep 8 first place and Oct 6 final
+- Show list May–Oct 2026, Sep 8 and Oct 6 entries corrected by Stone 15 Oct 2026: round-one win only, no residency (the live m4tias.com still says "First place" and needs the same fix)
 - Brand tokens (CSS :root), wordmark PNGs, gallery photos, hero video
 - SoundCloud profile URL soundcloud.com/sean-danahy-74417238
 - "Every inquiry answered inside one hour", set lengths, management scope
